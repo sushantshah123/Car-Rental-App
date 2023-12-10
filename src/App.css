@@ -1,0 +1,17 @@
+.popular_services{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./assets/all-images/blog-img/blog-1.jpg");
+    width: 100%;
+    height: 100vh;
+}
+
+.booking_image{
+    background-image: url(../public/images/offer-toyota.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(39, 37, 37, 0.5));
+}
