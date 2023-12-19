@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { GiShoppingCart, GiTrashCan } from "react-icons/gi";
+import { IoTrashOutline } from "react-icons/io5";
 import {useSelector, useDispatch} from "react-redux"
 import { Link } from 'react-router-dom';
 import { decreaseQuantity, increaseQuantity, removeFromCart, resetCart, subTotal } from '../redux/bookSlice';
@@ -47,7 +48,7 @@ const CartDetails = () => {
                         Total: ${item.price * item.quantity}
                       </div>
                       <div className='cursor-pointer' onClick={()=>dispatch(removeFromCart(item))}>
-                        <GiTrashCan/>
+                        <IoTrashOutline/>
                       </div>
                     </div>
                       )

@@ -21,6 +21,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "bmw",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -37,6 +38,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "toyota",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -53,6 +55,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "bmw",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -69,6 +72,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "mercedes",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -85,6 +89,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "mercedes",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -101,6 +106,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "mercedes",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -117,6 +123,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "Toyota",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
@@ -133,6 +140,7 @@ const carData = [
     gps: "GPS Navigation",
     seatType: "Heated seats",
     automatic: "Automatic",
+    category: "bmw",
     description:
       " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
   },
