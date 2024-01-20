@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaCar, FaMotorcycle } from 'react-icons/fa'
+import { IoSettingsOutline } from 'react-icons/io5'
+import { SiYamahamotorcorporation } from "react-icons/si";
 
 const AboutUs = () => {
   return (
@@ -9,10 +12,10 @@ const AboutUs = () => {
          <h3 className='text-red-600 text-2xl font-medium'>Welcome to Car Rent Service</h3>
          <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quisquam excepturi voluptate, ratione accusantium totam vero perspiciatis nisi, quibusdam sint dolore doloremque! Veritatis quas quia debitis corrupti quisquam iure! Enim.</p>
          <div className='flex gap-4 w-full flex-wrap'>
-            <p className='w-1/3 text-xs'><span>logo</span> loream ipsum dolor jonu</p>
-            <p className='w-1/3 text-xs'><span>logo</span> loream ipsum dolor jonu</p>
-            <p className='w-1/3 text-xs'><span>logo</span> loream ipsum dolor jonu</p>
-            <p className='w-1/3 text-xs'><span>logo</span> loream ipsum dolor jonu</p>
+            <p className='w-1/3 text-xs flex items-center gap-1'><span><IoSettingsOutline /></span> loream ipsum dolor jonu</p>
+            <p className='w-1/3 text-xs flex items-center gap-1'><span><FaCar /></span> loream ipsum dolor jonu</p>
+            <p className='w-1/3 text-xs flex items-center gap-1'><span><SiYamahamotorcorporation /></span> loream ipsum dolor jonu</p>
+            <p className='w-1/3 text-xs flex items-center gap-1'><span><FaMotorcycle /></span> loream ipsum dolor jonu</p>
          </div>
        </div>
        <div className='md:w-1/2 w-full overflow-hidden h-full'>

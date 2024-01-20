@@ -31,7 +31,7 @@ const CartDetails = () => {
              {
                   products.map((item) => {
                   return(
-                    <div className='flex items-center' key={item.id}>
+                    <div className='flex items-center justify-between' key={item.id}>
                       <div className='w-2/5'>
                       <img src={item.image} alt="" className='h-8 w-8'/>
                       <div>{item.carName}</div>

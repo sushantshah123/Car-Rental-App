@@ -8,6 +8,7 @@ import SingleCar from './pages/SingleCar'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Cart from './pages/Cart'
+import { SkeletonTheme } from 'react-loading-skeleton'
 
 function App() {
 

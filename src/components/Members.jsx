@@ -15,9 +15,9 @@ const Members = () => {
                  <div className='relative'>
                 <img src={item.imgUrl} alt="" />
                 <div className='absolute group-hover:flex justify-between items-center px-5 hidden h-0 w-0 group-hover:w-full group-hover:h-full top-0 group-hover:bg-opacity-40'>
-                <p className='text-black cursor-pointer'>{item.icon1}</p>
-                <p className='text-black cursor-pointer'>{item.icon2}</p>
-                <p className='text-black cursor-pointer'>{item.icon3}</p>
+                <p className='text-red-500 cursor-pointer'>{<item.icon1/>}</p>
+                <p className='text-red-500 cursor-pointer'>{<item.icon2/>}</p>
+                <p className='text-red-500 cursor-pointer'>{<item.icon3/>}</p>
                 </div>
                 </div>
                 <h2 className='font-medium text-red-500'>{item.name}</h2>

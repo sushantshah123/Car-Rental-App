@@ -32,7 +32,7 @@ import Pagination from './Pagination';
         <h3 className='text-red-600 text-2xl font-medium'>Hot Offers</h3>
         <div className='py-5 flex justify-between'>
       <form action="" className='w-1/2'>
-      <input type="search" placeholder='search 1000+ cars' className='px-2 py-1 border-gray-600 border-2 w-1/2 xs:w-full sm:w-full rounded-full' onChange={(e) => setSearch(e.target.value)} />
+      <input type="search" placeholder='search 1000+ cars...' className='px-2 py-1 border-gray-600 border-2 w-1/2 xs:w-full sm:w-full rounded-full' onChange={(e) => setSearch(e.target.value)} />
       </form>
       <select className='w-[100px] border-2 border-black' onChange={(e)=>setCategory(e.target.value)}>
         <option value="all">All</option>
@@ -49,7 +49,7 @@ import Pagination from './Pagination';
       }).map((item) => {
                     return(
                         <div key={item.id} className='text-black bg-slate-200 sm:w-full border-[1px] p-4 shadow-md flex flex-col gap-2'>
-                         <img src={item.imgUrl} alt="" />
+                         <img src={item.imgUrl[0]} alt="" />
                          <h2 className='text-center text-blue-500 font-medium'>{item.carName}</h2>
                          <h4 className='text-[13px] font-semibold text-center'>${item.price}.00 / Day</h4>
                          <div className='flex justify-between items-center'>
@@ -62,7 +62,7 @@ import Pagination from './Pagination';
                               id:item.id,
                               carName:item.carName,
                               price:item.price,
-                              image:item.imgUrl,
+                              image:item.imgUrl[0],
                             }))}>RENT</button>
                             <Link to={`/singlecar/${item.id}`}>
                             <button className='w-1/2 bg-gray-600 text-white text-xs py-[3px] rounded-sm'>DETAILS</button>
