@@ -20,9 +20,7 @@ const SingleCarItem = () => {
 
   const { id } = useParams();
   const car = carData.find((car) => car.id === parseInt(id, 10));
-  const { imgUrl, carName, price, model, gps, speed, seatType, automatic } =
-    car;
-
+  const { imgUrl, carName, price, model, gps, speed, seatType, automatic } = car;
   const [carImg, setCarImg] = useState(imgUrl[0])
 
 
